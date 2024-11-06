@@ -36,7 +36,7 @@ public class HelloController {
     }
 
     private void updateInfoLabel(ResourceBundle bundle, Locale locale) {
-        String name = "Birgitta Öberg";
+        String name = "Samu Pietilä";
         String currentTime = LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
         infoLabel.setText(name + " - " + currentTime);
     }
